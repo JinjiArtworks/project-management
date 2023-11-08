@@ -20327,7 +20327,7 @@ body.swal2-toast-shown .swal2-container.swal2-bottom-end, body.swal2-toast-shown
 }
 
 .scroller::-webkit-scrollbar-track {
-  background-color: #88DFFB;
+  background-color: #ff9770;
 }
 
 .scroller::-moz-scrollbar-thumb {
@@ -26484,17 +26484,17 @@ span.avatar-status {
   clear: both;
   word-break: break-word;
   color: #fff;
-  background: #32BDEA;
+  /* background: #77DD77; */
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
   border-radius: 10px;
-  -webkit-box-shadow: 0 2px 4px 0 #50b5ff;
+  /* -webkit-box-shadow: 0 2px 4px 0 #50b5ff;
   -moz-box-shadow: 0 2px 4px 0 #50b5ff;
   -ms-box-shadow: 0 2px 4px 0 #50b5ff;
-  -o-box-shadow: 0 2px 4px 0 #50b5ff;
-  box-shadow: 0 2px 4px 0 #50b5ff;
+  -o-box-shadow: 0 2px 4px 0 #50b5ff; */
+  /* box-shadow: 0 2px 4px 0 #50b5ff; */
 }
 
 .chat-message>p {

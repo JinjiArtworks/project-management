@@ -9,6 +9,7 @@
         </a>
       </div>
       <div class="iq-search-bar device-search">
+        <h4 class="card-title mb-0"></h4>
       </div>
       <div class="d-flex align-items-center">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-label="Toggle navigation">
@@ -16,23 +17,6 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto navbar-list align-items-center">
-            <li class="mr-2">
-              <a class="btn border add-btn" data-toggle="modal" data-target="#new-order"><i class="fa-solid fa-plus mb-1"></i>New Ticket </a>
-            </li>
-            <li class="nav-item nav-icon search-content">
-              <a href="#" class="search-toggle rounded" id="dropdownSearch" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="ri-search-line"></i>
-              </a>
-              <div class="iq-search-bar iq-sub-dropdown dropdown-menu" aria-labelledby="dropdownSearch">
-                <form action="#" class="searchbox p-2">
-                  <div class="form-group mb-0 position-relative">
-                    <input type="text" class="text search-input font-size-12" placeholder="type here to search...">
-                    <a href="#" class="search-link"><i class="las la-search"></i></a>
-                  </div>
-                </form>
-              </div>
-            </li>
-
             <li class="nav-item nav-icon dropdown">
               <a href="#" class="search-toggle dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bell">
@@ -128,28 +112,5 @@
         </div>
       </div>
     </nav>
-  </div>
-</div>
-<div class="modal fade" id="new-order" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-body">
-        <div class="popup text-left">
-          <h4 class="mb-3">New Ticket</h4>
-          <div class="content create-workform bg-body">
-            <div class="pb-3">
-              <label class="mb-2">Email</label>
-              <input type="text" class="form-control" placeholder="Enter Name or Email">
-            </div>
-            <div class="col-lg-12 mt-4">
-              <div class="d-flex flex-wrap align-items-ceter justify-content-center">
-                <div class="btn btn-primary mr-4" data-dismiss="modal">Cancel</div>
-                <div class="btn btn-outline-primary" data-dismiss="modal">Create</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
 </div>

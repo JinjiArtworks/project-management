@@ -1,17 +1,16 @@
 <?php
 
 namespace App\Controllers;
-
 use App\Controllers\BaseController;
 
 class Dashboard extends BaseController
 {
     public function index()
     {
-        return view('dashboard/index');
+        return view('client/dashboard/index');
     }
-    public function detail()
+    public function detailTicket()
     {
-        return view('dashboard/detail-dashboard');
+        return view('client/dashboard/detail-ticket');
     }
 }

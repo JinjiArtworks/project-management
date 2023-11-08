@@ -20538,11 +20538,11 @@ span.avatar-status {
     clear: both;
     word-break: break-word;
     color: #fff;
-    background: #32bdea;
+    /* background: #32bdea; */
     border-radius: 10px;
-    -ms-box-shadow: 0 2px 4px 0 #50b5ff;
+    /* -ms-box-shadow: 0 2px 4px 0 #50b5ff;
     -o-box-shadow: 0 2px 4px 0 #50b5ff;
-    box-shadow: 0 2px 4px 0 #50b5ff
+    box-shadow: 0 2px 4px 0 #50b5ff */
 }
 
 .chat-message>p {

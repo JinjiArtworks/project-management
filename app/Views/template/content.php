@@ -1,5 +1,5 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 
 <head>
     <?= view('template/header') ?>
@@ -11,11 +11,14 @@
     <?= view('template/preloader') ?>
     <?= view('template/side_nav') ?>
     <?= view('template/top_nav') ?>
-    <?= $this->renderSection('content') ?>
+    <div class="start-content">
+        <?= $this->renderSection('content') ?>
+    </div>
+    <div class="start-js">
+        <?= $this->renderSection('content_js') ?>
+        <?= view('template/js') ?>
+    </div>
     <?= view('template/footer') ?>
-    <?= view('template/js') ?>
-    <?= $this->renderSection('content_js') ?>
-
 </body>
 
 </html>

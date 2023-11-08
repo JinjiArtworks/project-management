@@ -4,18 +4,19 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class UserActivity extends Model
+class Company extends Model
 {
-    protected $table            = 'useractivities';
-    protected $primaryKey       = 'id';
+    protected $DBGroup          = 'default';
+    protected $table            = 'tb_company';
+    protected $primaryKey       = 'id_company';
     protected $useAutoIncrement = true;
     protected $returnType       = 'array';
-    protected $useSoftDeletes   = false;
+    protected $useSoftDeletes   = true;
     protected $protectFields    = true;
-    protected $allowedFields    = [];
+    protected $allowedFields    = ['company_name'];
 
     // Dates
-    protected $useTimestamps = false;
+    protected $useTimestamps = true;
     protected $dateFormat    = 'datetime';
     protected $createdField  = 'created_at';
     protected $updatedField  = 'updated_at';
