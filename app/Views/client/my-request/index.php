@@ -89,7 +89,7 @@
                     <hr>
                     <div class="content create-workform bg-body">
                         <div class="pb-3">
-                            <label class="mb-2">Subject </label>
+                            <label class="mb-2">Subjasdasdasdasdect </label>
                             <input type="text" class="form-control" placeholder="Subject">
                         </div>
                         <div class="pb-3">
