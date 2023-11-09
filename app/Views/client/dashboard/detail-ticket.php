@@ -175,7 +175,7 @@
                         </div>
                     </div>
                     <div class="card-body">
-                        <form action="page-list-customers.html" data-toggle="validator">
+                        <form action="page-list-customers.html" >
                             <div class="row">
                                 <!-- <input type="hidden" value="-"> ini jika client ingin menambahkan progress, status di defaultkan jadi - -->
                                 <!-- <div class="col-md-6">
@@ -198,13 +198,12 @@
                                 <div class="col-md-12">
                                     <div class="form-group">
                                         <label>Remarks</label>
-                                        <textarea class="form-control" rows="4"></textarea>
+                                        <textarea class="form-control" rows="4" required></textarea>
                                     </div>
                                 </div>
 
                             </div>
-                            <button type="submit" class="btn btn-primary mr-2">Add Customer</button>
-                            <button type="reset" class="btn btn-danger">Reset</button>
+                            <button type="submit" class="btn btn-primary">Confirm</button>
                         </form>
                     </div>
                 </div>
